@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Text Color Variables */
+
+:root {
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+}
+
+/* Footer Styles - Frontend Mentor */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* General Styles */
+
+body {
+    background-color: var(--very-dark-blue);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Overpass', sans-serif;
+}
+
+.card {
+    color: var(--white);
+    height: 350px;
+    margin: 40% 25px 0 25px;
+    background-color: var(--dark-blue);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#feedbackMessage {
+    font-weight: 400;
+    color: var(--light-grey);
+}
+
+h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.confirmation {
+    display: none;
+}
+
+.ratingBox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#starBorder {
+    background: hsl(212, 20%, 25%);
+    width: 45px;
+    height: 45px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rateButton {
+    background: hsl(212, 20%, 25%);
+    width: 45px;
+    height: 45px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
